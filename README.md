@@ -2,13 +2,13 @@
 
 This project explores forecasting urban air quality (PM2.5) using classical time series models and deep learning approaches, with a focus on **transfer learning** to improve generalization across cities.
 
-## 📌 Project Summary
+## Project Summary
 
 We developed and evaluated forecasting models to predict PM2.5 levels using historical air quality and weather data from **Ahmedabad (source city)** and **Kolkata (target city)**. The goal was to build a model that could generalize across different urban environments using **transfer learning**.
 Data sourced from [Kaggle: Air Quality Data in India](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india)
 
 
-## 🔍 What We Did
+## What We Did
 
 - Collected and preprocessed 5 years of hourly AQI and meteorological data from both cities
 - Built traditional time series models: **ARIMA** and **SARIMA**
@@ -16,7 +16,7 @@ Data sourced from [Kaggle: Air Quality Data in India](https://www.kaggle.com/dat
 - Applied **transfer learning**: fine-tuned the Ahmedabad-trained LSTM on Kolkata data
 - Compared optimizers (**SGD** vs **Adam**) and evaluated all models using **RMSE**
 
-## 📈 Models Used
+## Models Used
 
 | Model        | Description                                       | Key Metric (RMSE) |
 |--------------|---------------------------------------------------|-------------------|
@@ -26,21 +26,21 @@ Data sourced from [Kaggle: Air Quality Data in India](https://www.kaggle.com/dat
 | LSTM (Adam)  | Improved convergence and accuracy                 | 0.0534            |
 | Transfer LSTM| Fine-tuned LSTM on Kolkata data                   | **0.0678**        |
 
-## 🛠️ Technologies
+## Technologies
 
 - **Python**, **Pandas**, **NumPy**
 - **scikit-learn**, **statsmodels**
 - **TensorFlow / Keras**
 - **Matplotlib**, **Seaborn**
 
-## 📦 Features
+## Features
 
 - Recursive feature selection and VIF-based dimensionality reduction
 - Forecasts next 7 days (168 hours) of PM2.5 levels
 - Fine-tuned model transfer to reduce training time on low-data cities
 - Visual evaluation with forecast vs. actual plots
 
-## 🔄 Future Directions
+## Future Directions
 
 - Scale to additional cities with limited historical data
 - Integrate real-time weather and pollution APIs
@@ -48,4 +48,4 @@ Data sourced from [Kaggle: Air Quality Data in India](https://www.kaggle.com/dat
 
 ---
 
-🎓 _Project completed as part of APM 523: Optimization at Arizona State University_  
+Project completed as part of APM 523: Optimization at Arizona State University_  
