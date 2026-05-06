@@ -8,7 +8,7 @@ We developed and evaluated forecasting models to predict PM2.5 levels using hist
 Data sourced from [Kaggle: Air Quality Data in India](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india)
 
 
-## What We Did
+## What I Did
 
 - Collected and preprocessed 5 years of hourly AQI and meteorological data from both cities
 - Built traditional time series models: **ARIMA** and **SARIMA**
